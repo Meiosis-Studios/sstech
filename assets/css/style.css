@@ -39,9 +39,9 @@
 /*===========================
     1. COMMON css 
 ===========================*/
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
 body {
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #555;
@@ -85,7 +85,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-weight: 700;
   color: #192437;
   margin: 0px;
@@ -179,7 +179,7 @@ p {
 }
 .main-btn::before {
   position: absolute;
-  content: "";
+  content: '';
   left: 60px;
   top: 50%;
   transform: translateY(-50%);
@@ -341,7 +341,7 @@ p {
 }
 .header-area .header-top::before {
   position: absolute;
-  content: "";
+  content: '';
   left: 0;
   top: 0;
   height: 100%;
@@ -429,7 +429,7 @@ p {
 }
 .header-area .main-header::before {
   position: absolute;
-  content: "";
+  content: '';
   left: 0;
   top: 0;
   height: 100%;
@@ -467,7 +467,7 @@ p {
 }
 .header-area .main-header .main-header-item .header-btn a::before {
   position: absolute;
-  content: "";
+  content: '';
   left: 60px;
   top: 50%;
   transform: translateY(-50%);
@@ -862,7 +862,7 @@ p {
 }
 .header-area.header-2-area .header-top-2::before {
   position: absolute;
-  content: "";
+  content: '';
   left: 0;
   top: 0;
   height: 100%;
@@ -1153,6 +1153,7 @@ p {
   color: #192437;
 }
 .header-area.header-3-area {
+  background-color: black;
   position: absolute;
   left: 0;
   right: 0;
@@ -1481,7 +1482,7 @@ p {
 }
 .banner-area::before {
   position: absolute;
-  content: "";
+  content: '';
   left: 0;
   top: 0;
   height: 100%;
@@ -1578,7 +1579,7 @@ p {
 }
 .banner-area.banner-2-area.banner-3-area::before {
   position: absolute;
-  content: "";
+  content: '';
   left: 0;
   top: 0;
   height: 100%;
@@ -1665,7 +1666,7 @@ p {
   display: inline-block;
   padding-right: 0.5rem;
   color: #fff;
-  content: "-";
+  content: '-';
 }
 
 /*===========================
@@ -1688,7 +1689,7 @@ p {
 }
 .services-area .services-bg::before {
   position: absolute;
-  content: "";
+  content: '';
   left: 50%;
   transform: translateX(-50%);
   top: 0;
@@ -1794,7 +1795,7 @@ p {
 }
 .services-area .services-bg .services-item .services-overlay a::before {
   position: absolute;
-  content: "";
+  content: '';
   left: 0;
   top: 50%;
   transform: translateY(-50%);
@@ -1931,7 +1932,7 @@ p {
 }
 .industri-services-area .services-item .services-content a::before {
   position: absolute;
-  content: "";
+  content: '';
   left: 0;
   top: 50%;
   transform: translateY(-50%);
@@ -2052,7 +2053,7 @@ p {
   .industri-services-2-item
   a::before {
   position: absolute;
-  content: "";
+  content: '';
   left: 0;
   top: 50%;
   transform: translateY(-50%);
@@ -2439,7 +2440,7 @@ p {
 }
 .solution-area .solution-user .user::before {
   position: absolute;
-  content: "";
+  content: '';
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -2459,7 +2460,7 @@ p {
 }
 .video-area::before {
   position: absolute;
-  content: "";
+  content: '';
   left: 0;
   top: 0;
   height: 100%;
@@ -2511,7 +2512,7 @@ p {
 }
 .video-area .video-item a::before {
   position: absolute;
-  content: "";
+  content: '';
   left: 0;
   top: 0;
   height: 100%;
@@ -2526,7 +2527,7 @@ p {
 }
 .video-area .video-item a::after {
   position: absolute;
-  content: "";
+  content: '';
   left: 0;
   top: 0;
   height: 100%;
@@ -2626,7 +2627,7 @@ p {
 }
 .bulidings-area::before {
   position: absolute;
-  content: "";
+  content: '';
   left: 0;
   top: 0;
   height: 100%;
@@ -2766,7 +2767,7 @@ p {
 }
 .bulidings-area .bulidings-content .item i::after {
   position: absolute;
-  content: "";
+  content: '';
   left: 0;
   top: 0;
   height: 100%;
@@ -3029,7 +3030,7 @@ p {
 }
 .client-3-area::before {
   position: absolute;
-  content: "";
+  content: '';
   left: 0;
   bottom: 0;
   height: 370px;
@@ -3130,7 +3131,7 @@ p {
 }
 .fun-facts-area .fun-facts-bg .fun-facts-item::before {
   position: absolute;
-  content: "";
+  content: '';
   right: -15px;
   top: 50%;
   transform: translateY(-50%);
@@ -3142,7 +3143,7 @@ p {
   color: #fff;
   font-size: 40px;
   font-weight: 400;
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 .fun-facts-area .fun-facts-bg .fun-facts-item > span {
   font-weight: 300;
@@ -3171,7 +3172,7 @@ p {
 }
 .fun-facts-2-area::before {
   position: absolute;
-  content: "";
+  content: '';
   left: 0;
   top: 0;
   height: 100%;
@@ -3218,7 +3219,7 @@ p {
   font-size: 80px;
   font-weight: 300;
   color: #fff;
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .fun-facts-2-area .fun-facts-item .item .title {
@@ -3318,7 +3319,7 @@ p {
 }
 .project-area .project-item .project-content p::before {
   position: absolute;
-  content: "";
+  content: '';
   left: 0;
   bottom: 0;
   height: 2px;
@@ -3668,7 +3669,7 @@ p {
 }
 .solution-2-area .solution-content .solution-btns .play a .thumb::before {
   position: absolute;
-  content: "";
+  content: '';
   left: 48%;
   top: 49%;
   transform: translate(-50%, -50%);
@@ -3694,7 +3695,7 @@ p {
 }
 .project-2-area::before {
   position: absolute;
-  content: "";
+  content: '';
   left: 0;
   top: 0;
   height: 100%;
@@ -4052,7 +4053,7 @@ p {
   background-color: #fff;
 }
 .faq-accrodion .accrodion::before {
-  content: "";
+  content: '';
   position: absolute;
   top: -1px;
   bottom: -1px;
@@ -4131,7 +4132,7 @@ p {
   }
 }
 .faq-accrodion .accrodion .accrodion-title::before {
-  content: "+";
+  content: '+';
   font-size: 32px;
   color: #192437;
   text-align: center;
@@ -4156,7 +4157,7 @@ p {
   }
 }
 .faq-accrodion .accrodion .accrodion-title::after {
-  content: "-";
+  content: '-';
   font-weight: 900;
   font-size: 32px;
   color: #192437;
@@ -4495,7 +4496,7 @@ p {
 }
 .news-area::before {
   position: absolute;
-  content: "";
+  content: '';
   left: 0;
   bottom: 0;
   height: 30%;
@@ -4630,7 +4631,7 @@ p {
 }
 .news-2-area .news-thumb .news-thumb-content {
   position: absolute;
-  content: "";
+  content: '';
   left: 60px;
   bottom: 52px;
 }
@@ -5022,7 +5023,7 @@ p {
 }
 
 .blog-details__share a::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -5303,7 +5304,7 @@ p {
 }
 .sidebar__post__single::before {
   position: absolute;
-  content: "";
+  content: '';
   left: 0;
   bottom: -25px;
   width: 100%;
@@ -5471,7 +5472,7 @@ p {
   color: #fff;
 }
 
-.sidebar__search-form button[type="submit"] {
+.sidebar__search-form button[type='submit'] {
   background-color: transparent;
   border: none;
   outline: none;
@@ -5486,7 +5487,7 @@ p {
   transition: all 0.4s ease;
 }
 
-.sidebar__search-form button[type="submit"] i {
+.sidebar__search-form button[type='submit'] i {
   font-size: 16px;
   color: #fff;
   -webkit-transition: all 0.4s ease;
@@ -5669,7 +5670,7 @@ p {
 }
 .footer-sing-up .sing-up-form .input-box button::before {
   position: absolute;
-  content: "";
+  content: '';
   left: 0;
   top: 0;
   height: 100%;
@@ -5937,7 +5938,7 @@ p {
   top: 60%;
 }
 .go-top-area .go-top::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -6021,7 +6022,7 @@ p {
 }
 .go-top-wrap .go-top-btn::after {
   z-index: -1;
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: 0;
@@ -6182,7 +6183,7 @@ p {
 }
 .relationships-area .relationships-item::before {
   position: absolute;
-  content: "";
+  content: '';
   right: 0;
   top: 0;
   height: 100%;
@@ -6295,7 +6296,7 @@ p {
 }
 .skills .skill-item .skill-header .skill-percentage .count-box::before {
   position: absolute;
-  content: "";
+  content: '';
   right: 0;
   top: 0;
   width: 3px;
@@ -6470,7 +6471,7 @@ p {
   .social
   > a
   i::before {
-  content: "\f068";
+  content: '\f068';
 }
 .leadership-area .leadership-item:hover .leadership-thumb .social ul {
   opacity: 1;
@@ -6511,7 +6512,7 @@ p {
 }
 .nano-area .nano-item::before {
   position: absolute;
-  content: "";
+  content: '';
   left: 0;
   bottom: 0;
   height: 0%;
@@ -6807,7 +6808,7 @@ p {
 }
 .mission-area::before {
   position: absolute;
-  content: "";
+  content: '';
   right: 0;
   top: 0;
   height: 100%;
@@ -6940,7 +6941,7 @@ p {
 }
 .mission-area .mission-content .mission-contractors .thumb::before {
   position: absolute;
-  content: "";
+  content: '';
   left: -40px;
   top: 0;
   height: 100%;
@@ -7046,7 +7047,7 @@ p {
 }
 .experience-area::before {
   position: absolute;
-  content: "";
+  content: '';
   left: 0;
   bottom: 0;
   height: 310px;
@@ -7122,7 +7123,7 @@ p {
 }
 .experience-area .sing-in::before {
   position: absolute;
-  content: "";
+  content: '';
   left: 0;
   top: 0;
   height: 100%;
@@ -7142,7 +7143,7 @@ p {
 }
 .experience-area .experience-thumb::before {
   position: absolute;
-  content: "";
+  content: '';
   right: 0;
   top: 60px;
   height: 490px;
@@ -7376,7 +7377,7 @@ p {
 }
 .conatct-area .conatct-info-item .item.center::before {
   position: absolute;
-  content: "";
+  content: '';
   left: 0;
   top: -25px;
   height: 1px;
@@ -7385,7 +7386,7 @@ p {
 }
 .conatct-area .conatct-info-item .item.center::after {
   position: absolute;
-  content: "";
+  content: '';
   left: 0;
   bottom: -25px;
   height: 1px;
